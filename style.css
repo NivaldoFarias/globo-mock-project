@@ -1,0 +1,265 @@
+body {
+  background-color: #ffffff;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
+header img {
+  position: relative;
+  width: 171px;
+  height: 36px;
+  top: 22px;
+}
+main {
+  margin-left: 140px;
+  margin-right: 195px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 19px;
+  height: 40px;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+article {
+  height: 287px;
+  width: 624px;
+}
+section {
+  margin-top: 25px;
+  margin-bottom: 46px;
+  width: 624px;
+  height: 494px;
+}
+hr {
+  display: block;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+img {
+  cursor: pointer;
+}
+.main-news {
+  display: flex;
+  justify-content: space-between;
+}
+.full {
+  display: flex;
+  justify-content: center;
+}
+.head-articles {
+  margin-top: 34px;
+}
+.news {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  font-family: "Encode Sans", sans-serif;
+}
+.main-title {
+  font-weight: bold;
+  font-size: 52px;
+  line-height: 67px;
+  letter-spacing: -0.01em;
+  color: #c4160c;
+}
+.summary {
+  margin-top: 20px;
+  /* customizar fonte */
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 29px;
+  color: #303134;
+  /* customizar margens */
+}
+.splitbar-xaxis-header {
+  position: relative;
+  border-bottom: 1px solid #f5f6f7;
+  width: 100vw;
+}
+main > hr {
+  position: relative;
+  right: 155px;
+  border-bottom: 1px solid #f5f6f7;
+  width: 100vw;
+}
+.head-articles > hr {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #ebedef;
+  width: 624px;
+}
+section > hr {
+  margin: 25px 0px;
+  position: relative;
+  border-bottom: 1px solid #ebedef;
+  width: 624px;
+}
+.splitbar-yaxis-1 {
+  position: relative;
+  margin-left: 40px;
+  margin-right: 35px;
+  top: 35px;
+  border-left: 1px solid #ebedef;
+  height: 845px;
+}
+.splitbar-yaxis-2 {
+  position: relative;
+  margin: 0px 35px;
+  top: 35px;
+  border-left: 1px solid #ebedef;
+  height: 845px;
+}
+.sidebar-1 {
+  margin-top: 36px;
+}
+.sidebar-2 {
+  margin-top: 36px;
+}
+.snippet {
+  width: 193px;
+  height: 277px;
+}
+.small-snippet {
+  width: 192px;
+  height: 156px;
+}
+.snippet img {
+  border-radius: 12px;
+  height: 110px;
+  width: 193px;
+}
+.snippet-news-description {
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: #c4170c;
+}
+.snippet > .snippet-news-description {
+  margin-top: 11px;
+}
+.snippet-sub-title {
+  margin-bottom: 7px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+
+  color: #2f3134;
+}
+.snippet-preview {
+  font-size: 14px;
+  line-height: 19px;
+  /* or 136% */
+
+  letter-spacing: -0.048em;
+
+  color: #2f3134;
+}
+.aside-snippet {
+  width: 240px;
+  height: 295px;
+}
+.aside-snippet img {
+  border-radius: 12px;
+  height: 128px;
+  width: 240px;
+}
+.sidebar-1 .aside-snippet-news-description {
+  margin-top: 11px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+
+  color: #16ae54;
+}
+.sidebar-2 .aside-snippet-news-description {
+  margin-top: 11px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+
+  color: #ec8006;
+}
+.aside-snippet-sub-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.045em;
+
+  cursor: pointer;
+  color: #2f3134;
+}
+.aside-snippet-preview {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+
+  color: #2f3134;
+}
+.aside-small-snippet {
+  width: 240px;
+  height: 248px;
+}
+.aside-small-snippet img {
+  border-radius: 12px;
+  height: 128px;
+  width: 240px;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+nav a:hover {
+  filter: brightness(125%);
+  transition: 0.5s;
+}
+.snippet img:hover {
+  filter: brightness(75%);
+  transition: width 0.5s, height 0.5s;
+  width: 202.65px;
+  height: 115.5px;
+}
+.sidebar-1 img:hover {
+  filter: brightness(75%);
+  transition: width 0.5s, height 0.5s;
+  width: 252px;
+  height: 134.4px;
+}
+.sidebar-2 img:hover {
+  filter: brightness(75%);
+  transition: width 0.5s, height 0.5s;
+  width: 252px;
+  height: 134.4px;
+}
+.aside-snippet-sub-title:hover {
+  color: #505358;
+  transition: 1s;
+}
+.snippet-sub-title:hover {
+  color: #505358;
+  transition: 1s;
+}
+.main-title:hover {
+  color: #f03018;
+  transition: 0.5s;
+}
